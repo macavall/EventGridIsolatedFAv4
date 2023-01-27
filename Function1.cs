@@ -25,7 +25,7 @@ namespace FunctionApp1
                 _logger.LogInformation(input[x]?.Id?.ToString());
             }
 
-            //_logger.LogInformation(input.Data.ToString());
+            //_logger.LogInformation(input.Data.ToString()); 
         }
     }
 
